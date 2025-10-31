@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "antd": "^5.27.6",
+    "framer-motion": "^12.23.24",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-visibility-sensor": "^5.1.1"
