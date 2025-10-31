@@ -1,0 +1,130 @@
+.header{
+   
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.section3{
+    background-image: url(/public/images/bg_img.webp);
+    height: 90vh;
+    background-color: black;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.form_section_left{
+    width: 57%;
+    color: white;
+    /* margin-left: 5%; */
+}
+/* .centered-paragraph {
+  max-width: 600px; 
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+  
+} */
+.logo {
+  
+    width: 25%;
+  
+  
+}
+.computer {
+    width: 50%;
+    
+}
+
+.section2_para{
+    color: black;
+    width: 31% !important;
+}
+
+.section_container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+     height: 105vh;
+}
+.section_container div {
+  /* width: 100%; */
+  text-align: center;
+
+  
+}
+.video {
+   /* width: 50%;
+   height: 50%; */
+   border-radius: 15px;
+   margin-top: 5%;
+}
+
+.gradient_text {
+    font-size: 50px;
+  background: -webkit-linear-gradient( #0069C6, #EF4F4F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.transition-logo {
+  
+  width: 100px;
+  height: 100px;
+  transition: width 4s, height 4s, background-color 3s;
+}
+
+.transition-logo:hover {
+  width: 400px;
+  height: 300px;
+  
+
+}
+
+.container {
+    border: 2px solid #000;
+   cursor: pointer;
+   
+}
+
+.image {
+ 
+  opacity: 0;
+  transform: translateY(-100px); 
+  transition: width 2s, height 4s, background-color 3s;
+  max-width: 100%;
+  height: auto;
+}
+
+.image.visible {
+  
+  opacity: 1;
+  transform: translateY(0);
+}
+.frame-pc{
+
+  position: absolute;
+  animation-name: myAnimation;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+@keyframes myAnimation {
+  from {top: 200px; }
+  to {top: 0px;}
+}
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+  font-size: 20px;
+}
